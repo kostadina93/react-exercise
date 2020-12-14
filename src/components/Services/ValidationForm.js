@@ -15,7 +15,6 @@ const ServicesValidationForm = (props) => {
   };
 
   const phonePattern = "^([+]?[0-9]{2,3})?[2|6]{1}[0-9]{9}$";
-  // const emailPattern = "^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$";
   const passwordPattern = "^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=.*[0-9]).*$";
 
   return (
