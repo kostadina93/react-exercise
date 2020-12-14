@@ -1,0 +1,44 @@
+.MainMenuSearch {
+  display: flex;
+  margin-left: 15%;
+
+  .MainMenuSearch__form {
+    input {
+      width: 180px;
+      color: white;
+      background: transparent;
+      border: 0;
+      text-align: center;
+      outline: none;
+      caret-color: $text-secondary;
+      border-bottom: 1px solid #333333;
+    }
+
+    input::-webkit-calendar-picker-indicator {
+      display: none;
+    }
+  }
+
+  .form {
+    &__submit-button, &__cancel-button, &__show-button {
+      margin-left: 10px;
+      border: 0;
+      background: transparent;
+      box-sizing: border-box;
+      outline: none;
+      cursor: pointer;
+
+      img {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    &__cancel-button {
+      img {
+        width: 17px;
+        height: 17px;
+      }
+    }
+  }
+}

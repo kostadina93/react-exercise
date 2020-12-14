@@ -1,0 +1,14 @@
+.SectionsMenu {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  color: $text-secondary;
+
+  .MenuTab.selected {
+    color: #253642;
+
+    .MenuTab__icon circle { fill: $tab-selection-blue; }
+  }
+}

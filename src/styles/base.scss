@@ -1,0 +1,29 @@
+// Colors
+
+$background: #f8faff;
+$slideshow-background: #404859;
+$text-primary:  #071e57;
+$text-secondary: #748494;
+$tab-selection-green: #2ed47d;
+$tab-selection-blue: #1292ee;
+$link: #0077cc;
+$range-slider-green: #58feee;
+$range-slider-blue: #74c0f7;
+$range-slider-orange: #fabcaf;
+$range-slider-pink: #f9aada;
+
+// Styles
+
+body {
+  margin: 0;
+  background-color: $background;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}

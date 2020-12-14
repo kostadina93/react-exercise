@@ -1,0 +1,65 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px clamp(50px, 15%, 300px) 30px clamp(50px, 15%, 300px);
+  box-sizing: border-box;
+  // max-width: 100vw;
+  overflow-y: auto;
+}
+
+.Home__header {
+  color: $text-primary;
+}
+
+
+
+  // .slider::-webkit-slider-thumb {
+  //   -webkit-appearance: none;
+  //   appearance: none;
+  //   width: 25px;
+  //   height: 25px;
+  //   background: #4CAF50;
+  //   cursor: pointer;
+  // }
+
+  // .slider::-moz-range-thumb {
+  //   width: 25px;
+  //   height: 25px;
+  //   background: #4CAF50;
+  //   cursor: pointer;
+  // }
+
+  // .customSlider {
+  //   -webkit-appearance: none;
+  //   width: 100%;
+  //   height: 8px;
+  //   background: #f5f7fd;
+  //   outline: none;
+
+    
+  // }
+
+  // .customSlider::-webkit-slider-thumb {
+  //   -webkit-appearance: none;
+  //   appearance: none;
+  //   // display: flex;
+  //   // justify-content: center;
+  //   // align-items: center;
+  //   width: 20px;
+  //   height: 20px;
+  //   border-radius: 20px;
+  //   color: #58feee;
+  //   background-color: #58feee;
+  //   background-image: url('../rangeSliderThumb.svg');
+  //   background-repeat: no-repeat;
+  //   background-position: center;
+  // }
+
+  // .slider::-moz-range-thumb {
+  //   width: 25px;
+  //   height: 25px;
+  //   background: #4CAF50;
+  //   cursor: pointer;
+  // }
+// }

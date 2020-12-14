@@ -1,0 +1,22 @@
+.SliderNavigation {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 350px;
+  width: 100%;
+}
+
+.SliderNavigation__nav-dots {
+  margin: 0 7px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.SliderNavigation__dot circle {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+.SliderNavigation__dot.selected circle {
+  fill: $tab-selection-blue;
+}

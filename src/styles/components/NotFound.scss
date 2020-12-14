@@ -1,0 +1,13 @@
+.NotFound {
+  text-align: center;
+}
+
+.NotFound__title {
+  color: $text-primary;
+}
+
+.NotFound__description {
+  color: $text-secondary;
+  
+  a { color: $link; }
+}

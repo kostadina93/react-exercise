@@ -1,0 +1,23 @@
+.SliderImage {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  max-height: 400px;
+}
+
+.SliderImage__image {
+  height: 400px;
+  width: 100%;
+  max-width: 650px;
+}
+
+.SliderImage__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(64, 72, 89, 0.8);
+  color: white;
+}

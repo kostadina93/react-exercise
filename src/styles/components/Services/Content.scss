@@ -1,0 +1,24 @@
+.ServicesContent {
+  width: 100%;
+}
+
+.ServicesContent__title {
+  color: $tab-selection-blue;
+}
+
+.ServicesContent__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ServicesContent__percentages {
+  flex: 1;
+  min-width: 380px;
+  color: $text-primary;
+
+  .percentages__title {
+    margin-bottom: 35px;
+  }
+}
